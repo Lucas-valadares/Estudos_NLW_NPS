@@ -7,10 +7,10 @@ class SurveyUser{
     readonly id: string;
 
     @Column()
-    user_id: string;
+    users_id: string;
 
     @Column()
-    survey_id: string;
+    surveys_id: string;
 
     @Column()
     value: number;
